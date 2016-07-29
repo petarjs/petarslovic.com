@@ -1,0 +1,19 @@
+<ul class="project-list">
+  {{ range (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "projects") }}
+    <li>
+      <div class="project">
+        <div class="project__info">
+          <div class="project__title">
+            <a href="{{ .Site.BaseURL }}projects/{{ urlize .Title }}">{{ .Title }}</a>
+          </div>
+          <div class="project__description">
+            {{ .Description | markdownify }}
+          </div>
+        </div>
+        <a href="{{ .Site.BaseURL }}projects/{{ urlize .Title }}">
+          <img src="{{ .Site.BaseURL }}images/projects/{{ .Params.image }}" alt="{{ .Title }}" class="project__image {{ if .Params.noshadow }} project__image--no-shadow {{ end }}">
+        </a>
+      </div>
+    </li>
+ {{ end }}
+</ul>

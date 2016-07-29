@@ -1,0 +1,28 @@
+    <footer id="footer">
+      {{ if .Site.Social }}
+        {{ partial "social-full.html" . }}
+      {{ end }}
+      <p class="small">
+      {{ if .Site.Params.copyright }}
+        © Copyright {{.Now.Format "2006"}}
+        {{ .Site.Params.copyright | markdownify }}
+      {{ else }}
+        © Copyright {{.Now.Format "2006"}} {{ .Site.Params.name }}
+      {{ end }}
+      </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    {{ template "_internal/google_analytics.html" . }}
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+    <script src="https://api.motion.ai/sdk/webchat.js"></script>
+    <script>
+    motionAI_Init('6736?token=7a564610b4e438ff20212bed6be8e363',true,400,470); /* botID with access token, display bot icon?, modal width, modal height */
+    /* you may also invoke motionAI_Open(); to manually open the modal */
+    </script>
+  </body>
+</html>

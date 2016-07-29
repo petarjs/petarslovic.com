@@ -1,0 +1,29 @@
+<header class="profile">
+  <a href="/" class="profile__image">
+    <img class="profile__glasses" src="{{ .Site.BaseURL }}images/glasses.png" alt="Petar Slovic">
+    <img src="{{ .Site.BaseURL }}images/petar.png" alt="Petar Slovic">
+  </a>
+  <div class="profile__author">
+    <h1><a href="/" class="profile__name">{{ .Site.Params.name }}</a> </h1>
+    <em class="profile__title">{{ .Site.Params.title }}</em>
+    <div class="profile__tagline">{{ .Site.Params.tagline }}</div>
+  </div>
+
+  {{ partial "social.html" . }}
+  
+  <div class="blog-action">
+    <h3 class="blog-aciton__text">Hey You! You can read my</h3>
+    <a class="blog-aciton__button" href="/blog">Blog</a>
+  </div>
+
+</header>
+
+<nav class="nav nav--main">
+  <ul class="nav__list">
+    <li class="nav__item"><a href="/" class="nav__link {{ if .IsHome }}nav__link--active{{ end }}">HOME</a></li>
+    <li class="nav__item"><a href="/blog" class="nav__link">BLOG</a></li>
+    <li class="nav__item"><a href="/" class="nav__link">WORK</a></li>
+    <li class="nav__item"><a href="http://ideaplate.xyz" class="nav__link">IDEAS</a></li>
+    <li class="nav__item"><a href="http://petar.io" class="nav__link">ABOUT</a></li>
+  </ul>
+</nav>

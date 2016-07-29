@@ -1,0 +1,21 @@
+baseurl = "http://petarslovic.com"
+languageCode = "en-us"
+title = "Petar Slovic - JS Warrior"
+googleAnalytics = ""
+disqusShortname = "petarslovic"
+
+[params]
+  name = "Petar Slovic"
+  description = "Petar Slovic Desc"
+  title = "JavaScript Warrior"
+  tagline = "petar@petarslovic.com"
+  enableRSS = true
+  copyright = "**Petar Slovic** - All code under [MIT Licence](http://opensource.org/licenses/MIT)"
+
+[social]
+  twitter  = "https://twitter.com/"
+  facebook = "https://www.facebook.com/"
+  linkedin = "https://www.linkedin.com/"
+  github = "https://www.github.com/"
+  skype = "petar.slovic"
+  mail = "petar@petarslovic.com"
