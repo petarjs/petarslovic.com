@@ -1,0 +1,12 @@
+<h2 class="post-list__title">Latest Projects</h2>
+<ul class="project-list project-list--small">
+  {{ range first 10 (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "projects") }}
+    <li>
+      <div class="project">
+        <a href="{{ .Site.BaseURL }}projects/{{ urlize .Title }}">
+          <img src="{{ .Site.BaseURL }}images/projects/{{ .Params.image }}" alt="{{ .Title }}" class="project__image {{ if .Params.noshadow }} project__image--no-shadow {{ end }}">
+        </a>
+      </div>
+    </li>
+ {{ end }}
+</ul>
