@@ -1,5 +1,5 @@
 +++
-date = "2015-06-29T21:32:38+02:00"
+date = "2015-06-29T12:00:00+02:00"
 title = "Audio Books and Transit Time"
 image = "audio-books-and-transit-time.jpg"
 fullwidth = true
