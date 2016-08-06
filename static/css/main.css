@@ -436,21 +436,45 @@ footer {
 /** Post Page */
 
 .post-page {
-  width: 66%;
+  width: 100%;
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .post-page {
+    width: 66%;
+  }
+}
+
 .post-page__title {
-  font-size: 46px;
+  font-size: 36px;
+}
+
+@media (min-width: 768px) {
+  .post-page__title {
+    font-size: 46px;
+  }
 }
 
 .post-page__text {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
+@media (min-width: 768px) {
+  .post-page__text {
+    font-size: 22px;
+  }
+}
+
 .post-page__text img {
-  width: 120%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .post-page__text img {
+    width: 120%;
+  }
 }
 
 .post-page__text img + em {
@@ -476,7 +500,7 @@ footer {
 .post-page__footer {
   background: lightseagreen;
   display: flex;
-  width: 120%;
+  width: 100%;
   padding: 20px;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -489,6 +513,7 @@ footer {
   .post-page__footer {
     flex-wrap: nowrap;
     text-align: left;
+    width: 120%;
   }
 }
 

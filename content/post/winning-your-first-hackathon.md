@@ -2,6 +2,7 @@
 date = "2015-11-06T21:49:03+02:00"
 title = "Winning Your First Hackathon"
 image = "winning-your-first-hackathon.png"
+tags = ["hackathon"]
 +++
 
 Hackathons are a great way to challenge yourself in many areas - they require passion, knowledge, speed, agility and teamwork. [SICEF](http://www.sicef.info/) did a great job organizing the first Hackathon in the Southern Serbia, in Nis, on 22. November 2014. 

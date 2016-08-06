@@ -3,6 +3,7 @@ date = "2015-06-29T21:32:38+02:00"
 title = "Audio Books and Transit Time"
 image = "audio-books-and-transit-time.jpg"
 fullwidth = true
+tags = ["thinking", "books"]
 +++
 
 Back when I lived in Nis, everything was in walking distance. You could travel the city end to end by car in maybe an hour. Took me about 20 minutes walking to get to faculty, or 6 minutes by car. (yep, I measured) Also, I worked from home, so not much transit there either.
