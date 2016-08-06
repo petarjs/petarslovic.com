@@ -200,7 +200,7 @@ a {
 }
 
 .blog-action__button:hover {
-  background-color: darkorange;
+  background-color: #FFB733;
   box-shadow: 0 1px 9px rgba(0,0,0,0.2);
 }
 
@@ -581,6 +581,53 @@ footer {
 
 .post-page__share a.twitter {
   background: #4fafed;
+}
+
+.post-page__actions {}
+
+.post-page__action {
+  margin: 25px 0 0 0;
+  padding: 15px 10px;
+  width: 180px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: bold;
+  line-height: 20px;
+  cursor: pointer;
+  display: inline-block;
+  background: orange;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .post-page__action {
+    margin: 25px 0;
+    margin-right: 10px;
+  }
+}
+
+.post-page__action:hover {
+  background: #FFB733;
+}
+
+.post-page__action:last-child {
+  margin-right: 0;
+}
+
+.post-page__image {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.post-page__image > img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .post-page__image > img {
+    width: 120%;
+  }
 }
 
 /** Subscribe */
