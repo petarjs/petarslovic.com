@@ -1,5 +1,41 @@
 {{ template "partials/header.html" . }}
-  <div class="wrapper">
-    {{ .Content }}
+<div class="wrapper">
+  {{ template "partials/header-profile.html" . }}
+
+  <div class="content">
+    <div class="post-page">
+      <h1 class="post-page__title">{{ .Title }}</h1>
+      <div class="post-page__meta">
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+        <div class="post-page__tags">
+          {{ with .Params.tags }}
+          {{ if ge (len .) 1 }}
+            {{ range . }}
+              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
+            {{ end }}
+          {{ end }}
+          {{ end}}
+        </div>
+      </div>
+      <div class="post-page__text">
+        {{ .Content }}
+      </div>
+      
+      <div class="post-page__footer">
+        <img class="avatar" src="{{ .Site.BaseURL }}images/petar.png">
+        <div class="post-page__author">
+          <h4 class="post-page__author__name">{{ .Site.Params.name }}</h4>
+          <span>{{ .Site.Params.aboutAuthor }}</span>
+          <div class="post-page__share">
+            {{ template "partials/share.html" . }}
+          </div>
+        </div>
+      </div>
+
+      <div class="post-page__disqus">
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
   </div>
+</div>
 {{ template "partials/footer.html" . }}

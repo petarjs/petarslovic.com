@@ -1,6 +1,6 @@
-<h2 class="post-list__title">Latest Projects</h2>
+<a href="/projects"><h2 class="project-list__title">Latest Projects</h2></a>
 <ul class="project-list project-list--small">
-  {{ range first 10 (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "projects") }}
+  {{ range first 5 (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "projects") }}
     <li>
       <div class="project">
         <a href="{{ .Site.BaseURL }}projects/{{ urlize .Title }}">
