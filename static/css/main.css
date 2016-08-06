@@ -180,14 +180,14 @@ a {
   margin-top: 65px;
 }
 
-.blog-aciton__text {
+.blog-action__text {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 300;
   display: inline-block;
 }
 
-.blog-aciton__button {
+.blog-action__button {
   padding: 10px 25px;
   background: orange;
   border-radius: 8px;
@@ -199,7 +199,7 @@ a {
   font-size: 24px;
 }
 
-.blog-aciton__button:hover {
+.blog-action__button:hover {
   background-color: darkorange;
   box-shadow: 0 1px 9px rgba(0,0,0,0.2);
 }
@@ -581,4 +581,13 @@ footer {
 
 .post-page__share a.twitter {
   background: #4fafed;
+}
+
+/** Subscribe */
+.subscribe {
+  display: none;
+}
+
+.subscribe--active {
+  display: block;
 }
