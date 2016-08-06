@@ -1,0 +1,27 @@
+{{ template "partials/header.html" . }}
+
+<div class="wrapper">
+  {{ partial "header-profile.html" . }}
+
+  <div class="content">
+    <h1>{{ .Data.Singular }} - {{ .Title }}</h1>
+    
+    <div class="content__posts">
+      {{ range .Data.Pages }}
+        {{ $url := replace .Permalink .Site.BaseURL "" }}
+        {{ if and (ne $url "about/") }}
+          <a class="post {{ if .Params.fullwidth }} post--fullwidth {{ end }}" href="{{ .Permalink }}">
+            <span class="post__image" style="background-image: url('{{ .Site.BaseURL }}/images/posts/{{ .Params.image }}')"></span>
+            <span class="post__backdrop"></span>
+            <span class="post__title">{{ .Title }}</span>
+            <aside class="post__date">{{ .Date.Format "Jan 2" }}</aside>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="clearfix"></div>
+  </div>
+
+</div>
+{{ template "partials/footer.html" . }}
