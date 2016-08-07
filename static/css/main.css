@@ -52,6 +52,13 @@ body {
 .icon-twitter-circled:before { content: '\e806'; }
 .icon-facebook-rect:before { content: '\e803'; }
 
+img.emoji {
+  height: 1em;
+  width: 1em !important;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
 a {
   color: lightseagreen;
   text-decoration: none;
