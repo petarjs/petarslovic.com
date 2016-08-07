@@ -144,7 +144,7 @@ Other than that - just write! If you do it enough, you'll get great at it.
 
 ## Images
 
-Every blog post needs some cool images to break the wall of text. There are certainly good paid options for stock photos, but lately, the free stock image websites are exploding in popularity. There are a ton of websites that offer high quality stock photos for free, without any restrictions. The best part is - those photos are highly organic! If you search a paid site like ShutterStock, you will find a lot of pictures that look really scened and fake. Just imagine a stock photo of business people in suits, standing in a circle, having fake laughs and pretending to enjoy the meeting. Gives me creeps. You will want to go with cool, warm and fuzzy organic images that you can find on sites like [the ones listed here](https://bootstrapbay.com/blog/free-stock-photos/)
+Every blog post needs some cool images to break the wall of text. There are certainly good paid options for stock photos, but lately, the free stock image websites are exploding in popularity. There are a ton of websites that offer high quality stock photos for free, without any restrictions. The best part is - those photos are highly organic! If you search a paid site like ShutterStock, you will find a lot of pictures that look really scened and fake. Just imagine a stock photo of business people in suits, standing in a circle, having fake laughs and pretending to enjoy the meeting. Gives me creeps. You will want to go with cool, warm and fuzzy organic images that you can find on sites like [the ones listed here](https://bootstrapbay.com/blog/free-stock-photos/).
 
 ## Social Sharing
 
@@ -152,7 +152,7 @@ Well, you've got your blog online, and you've written your first post. But now y
 
 Enter [Buffer](https://buffer.com/app). It's a web tool that allows you to schedule posting content to your social media accounts at specific times, up to 10 posts in future (with the free tier). And it's free for Facebook, Twitter, LinkedIn, G+ and Instagram.
 
-![Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.](/images/posts/my-top-tools-for-awesome-blogs/pug  .jpg)
+![Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.](/images/posts/my-top-tools-for-awesome-blogs/pug.jpg)
 *Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.*
 
 ## Audio
