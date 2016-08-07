@@ -5,7 +5,7 @@ googleAnalytics = ""
 disqusShortname = "petarslovic"
 
 [params]
-  name = "Petar Slovic"
+  name = "Petar Slović"
   aboutAuthor = "Architecting complex, dynamic and highly interactive web applications through JavaScript and lots of coffee. Specializing in Angular JS and enthusiasm."
   description = "Petar Slovic Desc"
   title = "JavaScript Warrior"
@@ -14,10 +14,10 @@ disqusShortname = "petarslovic"
   copyright = "**Petar Slovic** - All code under [MIT Licence](http://opensource.org/licenses/MIT)"
 
 [social]
-  twitter  = "https://twitter.com/"
-  facebook = "https://www.facebook.com/"
-  linkedin = "https://www.linkedin.com/"
-  github = "https://www.github.com/"
+  twitter  = "https://twitter.com/PetarSlovic"
+  facebook = "https://www.facebook.com/petar.slovic"
+  linkedin = "https://rs.linkedin.com/in/petar-slović-78275067"
+  github = "https://github.com/petarslovic"
   skype = "skype:petar.slovic?chat"
   mail = "mailto:petar@petarslovic.com"
   cv = "#"
