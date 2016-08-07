@@ -1,10 +1,10 @@
 <ul class="profile__social profile__social--full soc">
-  <li><a class="soc-github" href="#"></a></li>
-  <li><a class="soc-twitter" href="#"></a></li>
-  <li><a class="soc-facebook" href="#"></a></li>
-  <li><a class="soc-linkedin" href="#"></a></li>
-  <li><a class="soc-skype" href="#"></a></li>
-  <li><a class="soc-mail" href="#"></a></li>
-  <li><a class="soc-rss" href="#"></a></li>
-  <li><a class="soc-cv soc-icon-last" href="#">CV</a></li>
+  <li><a class="soc-github" target="_blank" href="{{ .Site.Social.github }}"></a></li>
+  <li><a class="soc-twitter" target="_blank" href="{{ .Site.Social.twitter }}"></a></li>
+  <li><a class="soc-facebook" target="_blank" href="{{ .Site.Social.facebook }}"></a></li>
+  <li><a class="soc-linkedin" target="_blank" href="{{ .Site.Social.linkedin }}"></a></li>
+  <li><a class="soc-skype" href="{{ .Site.Social.skype | safeURL }}"></a></li>
+  <li><a class="soc-mail" href="{{ .Site.Social.mail }}"></a></li>
+  <li><a class="soc-rss" type="application/rss+xml" target="_blank" href="{{ .RSSLink }}"></a></li>
+  <li><a class="soc-cv soc-icon-last" href="{{ .Site.Social.cv }}">CV</a></li>
 </ul>
