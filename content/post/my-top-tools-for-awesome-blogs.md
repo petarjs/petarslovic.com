@@ -152,7 +152,7 @@ Well, you've got your blog online, and you've written your first post. But now y
 
 Enter [Buffer](https://buffer.com/app). It's a web tool that allows you to schedule posting content to your social media accounts at specific times, up to 10 posts in future (with the free tier). And it's free for Facebook, Twitter, LinkedIn, G+ and Instagram.
 
-![Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.](/images/posts/my-top-tools-for-awesome-blogs/pug.jpg)
+![Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.](/images/posts/my-top-tools-for-awesome-blogs/pug  .jpg)
 *Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.*
 
 ## Audio
