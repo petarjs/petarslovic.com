@@ -1,7 +1,11 @@
 +++
 date = "2014-11-25T01:07:44+02:00"
-title = "Okreni.me"
+title = "Okreni me"
 description = "Okreni.me is a winning app of Hackathon powered by SICEF, 2014 by Bazinga! team. It's an educational app, that lets students study using flash cards. Made using Angular + Java Spring REST api."
 image = "okreni-me.png"
+projectImage = "okreni-me.png"
+tags = ["angular", "hackathon"]
+codeUrl = "https://github.com/sicef-hakaton/bazinga"
 +++
 
+Okreni.me is a winning app of Hackathon powered by SICEF, 2014 by Bazinga! team. It's an educational app, that lets students study using flash cards. Made using Angular + Java Spring REST api.
