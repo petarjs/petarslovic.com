@@ -3,7 +3,7 @@ date = "2016-08-02T03:48:26+02:00"
 fullwidth = true
 image = "my-top-tools-for-awesome-blogs/header.jpg"
 tags = ["thinking", "blog", "tools"]
-title = "My Top Tools for Awesome Blogs"
+title = "My Top 11 Tools for Creating Awesome Blogs Quickly"
 
 +++
 
@@ -15,9 +15,9 @@ Currently I'm running 4 blogs. And I plan starting more in the future.
 - [jspolice.com](http://jspolice.com)  
 - [hipstercodes.com](http://hipstercodes.com)  
 
-So naturally, my goal is to go from idea to fully functioning blog in the least possible time and effort. Here are some tips on how to do that. ⚡⚡⚡
+So naturally, my goal is to go from an idea to fully functioning blog in the least possible time and effort. Here are some tips on how to do that. ⚡⚡⚡
 
-## Technology
+## 1. Technology
 
 You'll want to choose a stack that is easy to learn, easy to use, easy to deploy and easy to scale. Now you might think there is no technology that satisfies all of these conditions. 🦄 You can choose a framework that is easy to use, but has a lot of overhead for a simple blog. You can choose a fast programming language like Go, but you'd probably have to learn it from scratch (if you never used it before), and learn how to deploy it. You can use simple html pages, which is easy to deploy, but it's really stupid to create every blog page by hand - i.e. it doesn't scale.
 
@@ -79,18 +79,18 @@ But there are some things that I miss with Hugo:
 - Out of the box support for CSS preprocessors
 - Compared to Hexo it seems to be less configurable
 
-## Version Control
+## 2. Version Control
 
 I strongly encourage you to use Git. Why? First of all - documenting the changes that you make over time. You can see what you did, and can get back to an earlier version if need. Second, if you use FTP for getting your site to server, keeping track of what files changed yourself is setting yourself up for failure. And if you don't work alone on the site, it's going to be a nightmare. Using Git to manage and pull changes to your server saves you from a lot of demons creeping in the dark.
 
 ![Avoid getting lost with no water in the desert of dead code by using version control.](/images/posts/my-top-tools-for-awesome-blogs/desert.jpg)
 *Avoid getting lost with no water in the desert of dead code by using version control.*
 
-## Domain Name
+## 3. Domain Name
 
 Now you've gotta choose a cool domain name. I like to use [DomainsBot](http://www.domainsbot.com/) to help with this task. It gives you some recommendations based on keywords that you type, so it can really help in coming up with a great and creative domain name. It only shows available domains, which is awesome. But the coolest thing about it is that when you click "Buy", it shows you prices form different Domain Registers, so you can see who has the lowest price. Often there will be promotions on some sites, so you can get a great deal.
 
-## Email
+## 4. Email
 
 After you've got your domain, the natural next step is to setup email with it. Surely you don't want to send emails to people from a gmail account. `myaweomseblog@gmail.com` doesn't sound very trustworthy. And you need to build trust with people who will read you blog.
 
@@ -100,7 +100,7 @@ The setup is pretty simple, but it does require you to add some DNS records for 
 
 Lastly, after I have set everything up with Zoho, I add it into my Apple Mail using the SMTP credentials. And then it's all done, I can send and receive emails with my new domain.
 
-## Hosting
+## 5. Hosting
 
 Now you need to deploy your blog to a web server to make it accessible to the Internet. There are several ways to go about this, some easy and some hard. Here are the ones I had experience with.
 
@@ -127,7 +127,7 @@ They offer one click Wordpress installation, so that's easy. For static sites, y
 
 There are some other services that offer static site hosting too. For example, you can upload your site to a S3 bucket and serve it from there. And you can see a good rundown of options [here](http://alignedleft.com/resources/cheap-web-hosting).
 
-## Content
+## 6. Content
 
 Use markdown for you content. I now exclusively use [Classeur.io](Classeur.io) for writing content. I tried many markdown editors, both online and offline, and this one really struck home with me.
 
@@ -142,11 +142,11 @@ If you're new to markdown, here is a [nice guide](https://github.com/adam-p/mark
 
 Other than that - just write! If you do it enough, you'll get great at it.
 
-## Images
+## 7. Images
 
 Every blog post needs some cool images to break the wall of text. There are certainly good paid options for stock photos, but lately, the free stock image websites are exploding in popularity. There are a ton of websites that offer high quality stock photos for free, without any restrictions. The best part is - those photos are highly organic! If you search a paid site like ShutterStock, you will find a lot of pictures that look really scened and fake. Just imagine a stock photo of business people in suits, standing in a circle, having fake laughs and pretending to enjoy the meeting. Gives me creeps. You will want to go with cool, warm and fuzzy organic images that you can find on sites like [the ones listed here](https://bootstrapbay.com/blog/free-stock-photos/).
 
-## Social Sharing
+## 8. Social Sharing
 
 Well, you've got your blog online, and you've written your first post. But now you'll want people to see it, right? So you open a new tab and type 'f' and then Enter, and you're on Facebook. You share your post to your friends. But wait, if you're going to have a blog, you'll want to have a Facebook page for it. So you create one, and share the post there as well. But... what about Twitter? You open Twitter and create an account for your blog there. Though unlikely, you might want to share the posts to LinkedIn and Google Plus. So you realise that managing all these social media accounts is going to be a headache.
 
@@ -155,7 +155,7 @@ Enter [Buffer](https://buffer.com/app). It's a web tool that allows you to sched
 ![Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.](/images/posts/my-top-tools-for-awesome-blogs/pug.jpg)
 *Managing and syncing all your social accounts for all your blogs by hand will make you feel sad like this pug.*
 
-## Audio
+## 9. Audio
 
 For some blogs, you'll want to create a podcast to go with the content. It's a great way of giving some more value to your posts.
 
@@ -174,19 +174,19 @@ The limit is 3h of audio for the free plan. But hey, if you record 10 minute pod
 
 For audio editing (read stitching together and removing noise) you'll probably want to start with [Audacity](https://sourceforge.net/projects/audacity/). It's free and Open Source, but it doesn't have the nicest interface. No matter. It does the job well.
 
-## Video
+## 10. Video
 
 For some blogs, you'll want to have video to go with the audio. For recording video, I use my phone - Nexus 5X - mounted on a simple smartphone tripod. It's shooting in 4K, and with good lighting, the videos are more than decent.
 
 I pair the phone video recording with Zoom H1 audio recording, because the phone's mic is inferior, and mix them later. Phone's audio is useful for syncing and timing the Zoom H1 audio to the video.
 
-## Screencast
+## 11. Screencast
 
 Screencasts are important if you're running a tech blog or writing tutorials. I currently use QuickTime on Mac for recording my screen, but I imagine that I'll soon invest in a proper software for this. Probably Camtasia.
 
 ## Other tools
 
-To make your blog truly great, use these tools:
+To make your blog truly great, use these tools as well:
 
 - Google Analytics
 - Disqus for comments
