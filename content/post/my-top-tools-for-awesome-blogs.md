@@ -192,6 +192,7 @@ To make your blog truly great, use these tools as well:
 - Disqus for comments
 - Usability Hub for quick User testing
 - Fiverr for logo if you don't want to create it yourself
+- Emojis - you can easily use Twitter emojis on your site - [https://github.com/twitter/twemoji](https://github.com/twitter/twemoji)
 
 ## Conclusion
 
