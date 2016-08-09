@@ -1,7 +1,7 @@
 baseurl = "http://petarslovic.com/"
 languageCode = "en-us"
 title = "Petar Slovic - JS Warrior"
-googleAnalytics = ""
+googleAnalytics = "UA-69788212-1"
 disqusShortname = "petarslovic"
 
 [params]
