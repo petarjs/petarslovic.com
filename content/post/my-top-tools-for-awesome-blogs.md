@@ -10,7 +10,7 @@ title = "My Top 11 Tools for Creating Awesome Blogs Quickly"
 Some people asked me how to start their blogs as fast and as easy as possible. So I though I'd describe the tools I use and my strategy. 👾
 
 Currently I'm running 4 blogs. And I plan starting more in the future.
-- [petarslovic.com](http://petarslovic.com)  
+- [petar.io](http://petar.io)  
 - [petar.io](http://petar.io)  
 - [jspolice.com](http://jspolice.com)  
 - [hipstercodes.com](http://hipstercodes.com)  

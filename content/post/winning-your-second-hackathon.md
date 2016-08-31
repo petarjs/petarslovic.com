@@ -8,7 +8,7 @@ title = "Winning Your Second Hackathon"
 
 So, yeah. Another Hackathon, another victory! 🎉
 
-When I got back from the SICEF Hackathon two years ago (you can read about it [here](http://petarslovic.com/blog/winning-your-first-hackathon)), I thought to myself: *"This is cool, I'd like to do it again!"* But, as it so often happens, I got preoccupied with work and payed no attention to such ephemeral things as Hackathons. But here I am, two years later, just got back from a Hackathon.
+When I got back from the SICEF Hackathon two years ago (you can read about it [here](http://petar.io/blog/winning-your-first-hackathon)), I thought to myself: *"This is cool, I'd like to do it again!"* But, as it so often happens, I got preoccupied with work and payed no attention to such ephemeral things as Hackathons. But here I am, two years later, just got back from a Hackathon.
 
 Spoiler alert - We won. 💪💪💪
 
@@ -64,6 +64,6 @@ It turned out that we succeeded following the plan pretty much to the letter, ev
 
 The Hackathon took place in a luxurious hotel, Crowne Plaza in Belgrade, running in parallel to the IoT Week conference. I thought that was unusual, as I never had the impression of Hackathons being this fancy. It was so fancy that there were no pizzas - the trademark food of Hackathons everywhere. We had very nice things for lunch. A big, huge, unacceptable minus is that there was no steady supply of coffee. ***That I shall never forgive.*** ☕☕☕ It was served only at breaks, like, each 2 hours or so. No energy drinks either! There was no game room to unwind from working and hacking. But that was no biggie, since we didn't stay the nights there. We would go home and come back in the morning. Weird, right?
 
-Overall, the experience was quite nice, a balance between hacking and resting, messy programmers and fancy suits, exposed electronics and neatly arranged buffets. We enjoyed our time there, did not work too hard, got plenty of rest. It was a fun, and a very different Hackathon experience from what I was used to. I was trying to follow my own advice that I wrote about in [Winning your first Hackathon](http://petarslovic.com/blog/winning-your-first-hackathon), and it worked out very well. We were working harmoniously as a team, contributing ideas and our unique talents and knowledge, combining them to create something that looked great and was working even better.
+Overall, the experience was quite nice, a balance between hacking and resting, messy programmers and fancy suits, exposed electronics and neatly arranged buffets. We enjoyed our time there, did not work too hard, got plenty of rest. It was a fun, and a very different Hackathon experience from what I was used to. I was trying to follow my own advice that I wrote about in [Winning your first Hackathon](http://petar.io/blog/winning-your-first-hackathon), and it worked out very well. We were working harmoniously as a team, contributing ideas and our unique talents and knowledge, combining them to create something that looked great and was working even better.
 
 Looking forward to the next Hackathon! 🖖
