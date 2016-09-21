@@ -641,6 +641,10 @@ footer {
   width: 100%;
 }
 
+.post-page__text pre {
+  overflow-x: scroll;
+}
+
 @media (min-width: 768px) {
   .post-page__image > img {
     width: 120%;
