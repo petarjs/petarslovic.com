@@ -2,7 +2,7 @@
 date = "2016-09-13T08:15:05+02:00"
 fullwidth = true
 image = "grumpy-cat/header.jpeg"
-tags = ["thinking"]
+tags = ["shortthoughts", "codingtools"]
 title = "Grumpy Cat"
 
 +++
