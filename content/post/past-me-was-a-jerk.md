@@ -17,11 +17,26 @@ And I opened my eyes wide trying to understand what was my intention when I wrot
 
 And I laughed. Past me was a jerk. He wrote this line not thinking about the future me right here trying to do something with this code years later.
 
+What it so cleverly does, in case you're still staring at it in understandable misbelief, is using logical OR short circuts to simulate a couple of ifs. Written by someone who's not a jerk, it would look like this:
+
+````js
+var path;
+if(User.isProfessor()) {
+  path = '/dashboard';
+} else if(User.isStudent()) {
+  path = '/player-router';
+} else {
+  path = '/login';
+}
+````
+
+Surely, we could refactor this code more, but stick with me here. Right now, you're all like:
+
 > But what's the big deal, it's just a line of code. Sure, it's a bit convoluted, but it's not that hard to understand, bruh!
 
 > -- <cite> You right now</cite>
 
-Well it is a big deal. Code should be crystal clear to understand. You shouldn't use fancy cool tricks just to look like a ninja developer. 
+Really? Have you seen that thing? It IS a big deal. Code should be crystal clear to understand. You shouldn't use fancy cool tricks just to look like a ninja developer. Just because you can, doesn't mean you should.
 
 When others read that code, they're like
 
@@ -33,12 +48,14 @@ When you write code, write for readability, understandability and clarity. Not s
 
 Make your intentions very clear when you write code.
 
-Here's a small list of cool tricks I don't like to see in code that's meant to be read again by humans:
+Here's a small list of cool tricks I don't like to see in code that's meant to be read by humans:
 
-- `+'1'` for conversion from string to a number. Sure it's short, it's cool, but no. Use `parseInt` instead. And don't forget to add a second argument (base) while you're at it.
+- `+'1'` for conversion from string to a number. Sure, it's short, it's cool, but no. Use `parseInt` instead. And don't forget to add a second argument (base) while you're at it.
 - `+new Date`, similar to the previous one, still no. Use `new Date().valueOf()` or `Date.now()`.
 - `a ? b ? c : d : e` - nested ternary operator, are you even serious?
 - `let f = Function('return true;')` - now you're just messing with me.
 - `b = [a,a=b][0]` - swap variables without a temporary one. Dude, no.
 
 That's it. Just don't make life difficult for yourself or others, and everything will be fine.
+
+P.S. There are of course some use cases for showing off you ninja JS skills. Like if you're playing [CodinGame](https://www.codingame.com/start) or something similar, and you want to write a solution in the least number of characters, because why bother? No human will ever read that code, it will only be interpreted by a machine checking if it passes tests, so you can go all crazy and wild.
