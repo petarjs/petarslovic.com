@@ -11,4 +11,4 @@ Today I'm happy to introduce a new blog I started. One that I hope will turn int
 
 ## **Open Source projects are awesome, but it's hard to just go in and contribute.**
 
-So go on and check out JS Police's first review here - [ReadRemaining.js](http://localhost:3131/review/readremaining/).
+So go on and check out JS Police's first review here - [ReadRemaining.js](http://jspolice.com/review/readremaining/).
