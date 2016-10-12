@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My CV</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+  
+    body {
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      
+      font-family: 'Helvetica Neue', Helvetica, Arial;
+      line-height: 18px;
+      font-size: 12px;
+
+      color: #222;
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0 0 15px 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 300%;
+    }
+    h2 {
+      font-size: 210%;
+    }
+    h3 {
+      font-size: 130%;
+    }
+    
+    p {
+      margin: 0 0 10px 0;
+    }
+    
+    ul {
+      margin: 0;
+      padding: 0 0 0 10px;
+      list-style-type: square;
+    }
+    a {
+      color: #222;
+    }
+    /* ________________________________________________________ */
+    
+    .clear {
+      clear: both;
+    }
+
+    #main {
+      background: #fff;
+      width: 900px;
+      padding: 35px;
+      margin: 0 auto 15px auto;
+      overflow: hidden;
+      
+      box-shadow: 0 0 6px #ccc;
+    }
+    
+    #title {
+      line-height: 42px;
+      border-bottom: 3px solid #000;
+      padding-bottom: 30px;
+      margin: 0px 0 30px 0;
+      font-weight: bold;
+    }
+    
+    #credit {
+      margin-bottom: 20px;
+      font-size: 11px;
+      color: #999;
+      text-align: center;
+    }
+      #credit a {
+        color: #999;
+      }
+    
+    p label {
+      font-weight: bold;
+      
+      font-size: 110%;
+      margin-right: 10px;
+    }
+      p label span.colon {
+        display: inline;
+      }
+
+    
+    .section {
+      margin-bottom: 20px;
+    }
+    
+    .item {
+      margin: 0 0 20px 0;
+    }
+
+    /*  _____________________________ */
+    .rtl {
+      direction: rtl;
+    }
+
+    .photo .basic-info .set {
+      float: none !important;
+      width: auto !important;
+    }
+    .basic-info .address {
+      width: 40%;
+      float: left;
+    }
+    .basic-info .r {
+      float: right;
+      width: 58%;
+      text-align: right;
+    }
+      .basic-info label {
+        font-weight: bold;
+      }
+      .basic-info label, .basic-info span  {
+        display: inline !important;
+      }
+    .basic-info p {
+      margin: 0;
+    }
+    
+    .section .title {
+      background: #000;
+      float: left;
+      text-transform: uppercase;
+      font-size: 105%;
+      font-weight: bold;
+      word-wrap: break-word;
+      color: #fff;
+      padding: 4px 6px;
+      width: 16%;
+      margin-right: 30px;
+    }
+    .section .set {
+      float: left;
+      width: 78%;
+    }
+      .section .set h3 {
+        margin: 0;
+      }
+    .section span.value {
+      display: block;
+    }
+    .section h3 span.l, .section span.r {
+      width: 49%;
+      float: left;
+    }
+      .section span.r {
+        float: right;
+        text-align: right;
+      }
+      .section-education .school,
+      .section-work .job_title {
+        font-size: 100%;
+        display: block;
+        margin: 5px 0 5px 0;
+      }
+
+    /* ___ photo ___ */
+    #photo {
+      width: 160px;
+      height: 200px;
+      overflow: hidden;
+      float: left;
+      margin-top: 8px;
+      border-radius: 4px;
+    }
+    #photo img {
+      width: 100%;
+      height: auto;
+    }
+    .header.photo {
+      margin-left: 190px;
+    }
+    .header.photo #title {
+      text-align: left;
+    }
+    .header.photo .basic-info {
+      float: none;
+      padding: 0;
+    }
+
+    @media screen and (max-width: 950px) {
+      body {
+        background: #fff;
+      }
+      #main {
+        box-shadow: none;
+        padding: 0;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body class="lang- ">
+
+<div id="main">
+  
+  <h1 id="title">Petar Slović</h1>
+  <div class="basic-info section">
+          <h2 class="title">Contact</h2>
+        <div class="set">
+    
+              <p class="address">
+          <span class="value">
+            Vojvode Supljikca 49 / M2         </span>
+        </p>
+            <div class="r">
+                  <p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">petar@petar.io</span></p>
+        
+                  <p class="website"><label>Website<span class="colon">:</span></label> <span class="value">petar.io</span></p>
+        
+                  <p class="phone"><label>Phone<span class="colon">:</span></label> <span class="value">+381653548527</span></p>
+              </div>
+      <div class="clear"> </div>
+    </div><!-- set //-->
+    <div class="clear"> </div>
+  </div><!-- basic-info //-->
+
+  
+    
+      <div class="section section-work">
+      <h2 class="title">Work experience</h2>
+      <div class="set">
+                <div class="item">
+                  <h3><span class="company l">Cosmic Development</span>
+              <span class="date r">December 2015 &mdash; August 2016</span>
+                </h3>
+                <div class="clear"> </div>
+                <span class="job_title">Front End Team Lead &amp; JavaScript Warrior</span><div class="info"><ul><li>As a team leader, my responsibilities included working closely with the whole front end team, overseeing their progress and helping with any issues they had, fostering communication and motivating them.</li><li>I was responsible for preparing learning material for interns and monitoring their progress.</li><li>I worked as a lead developer on several smaller projects.</li><li>I led a team of five front end developers in working on a large B2B project that included eight interconnected front end applications (Angular JS) communicating with a single API, creating the front end architecture. I coordinated the communication between the front end, back end and mobile teams. I worked with back end team leader on analyzing and streamlining the business process and converting it into project requirements.</li></ul></div><div class="clear"> </div>
+                </div>
+              
+                <div class="item">
+                  <h3><span class="company l">Cosmic Development</span>
+              <span class="date r">April 2015 &mdash; December 2015</span>
+                </h3>
+                <div class="clear"> </div>
+                <span class="job_title">JavaScript Warrior</span><div class="info"><ul><li>I was responsible for implementing solutions for complex and highly interactive Web applications using Angular JS or vanilla JavaScript.</li><li>I worked closely with backend team in defining and improving APIs for several projects.</li><li>I created an internal application for tracking weekly task reports on my own initiative. I used Laravel PHP framework for the backend, and Angular JS on the front end.</li><li>I created an internal application for ordering food from catering services on my own initiative. I used Laravel PHP framework for the backend, and Angular JS on the front end.</li><li>I gave a talk on Angular JS on a company meetup.</li></ul></div><div class="clear"> </div>
+                </div>
+              
+                <div class="item">
+                  <h3><span class="company l">Infinum Co</span>
+              <span class="date r">February 2014 &mdash; March 2015</span>
+                </h3>
+                <div class="clear"> </div>
+                <span class="job_title">JavaScript Warrior</span><div class="info"><ul><li>As a javascript developer at Infinum, I worked with a wide variety of front end technologies including PhoneGap, AngularJS and BackboneJS.</li><li>I  was responsible for creating hybrid JavaScript applications using PhoneGap and focusing on delivering the most native-like experience.</li><li>I was responsible for several websites and Web applications focusing on responsiveness and maintainability.</li></ul></div><div class="clear"> </div>
+                </div>
+              
+                <div class="item">
+                  <h3><span class="company l">Project &quot;Energy efficient schools&quot;</span>
+              <span class="date r">March 2014 &mdash; October 2014</span>
+                </h3>
+                <div class="clear"> </div>
+                <span class="job_title">Head Front End Developer</span><div class="info"><ul><li>Working on the project "Energy efficient schools", which is founded through the Bulgaria-Serbia IPA Cross-border Programme, I
+was responsible for designing and implementing a front end Web application which communicated with a restful Web service.</li><li>I create the architecture and implemented the solution for multi-tenant Single Page Application using Angular JS.</li></ul></div><div class="clear"> </div>
+                </div>
+              
+                <div class="item">
+                  <h3><span class="company l">Evok</span>
+              <span class="date r">2012 &mdash; 2013</span>
+                </h3>
+                <div class="clear"> </div>
+                <span class="job_title">IT Sector Coordinator</span><div class="info"><ul><li>My main duties included project management and supporting the recruitment of new members for IT sector. </li><li>I held three lectures and workshops on Web technologies, attended by dozen people, gaining presentation skills. </li><li>I created the organization's website.</li></ul></div><div class="clear"> </div>
+                </div>
+              
+                <div class="item">
+                  <h3><span class="company l">Evok</span>
+              <span class="date r">2012 &mdash; 2013</span>
+                </h3>
+                <div class="clear"> </div>
+                <span class="job_title">IT Support</span><div class="info"><ul><li>I worked as IT support on the project "Zabavne kante za reciklažu" which was founded by PECD programme.</li><li>My tasks included creating of the promotional website, managing social media presence and designing stickers and educational
+posters.</li></ul></div><div class="clear"> </div>
+                </div>
+              </div>
+      <div class="clear"> </div>
+    </div>
+      <div class="section section-qualifications">
+      <h2 class="title">Qualifications</h2>
+      <div class="set">
+              <div class="item">
+                <span class="info"><div>
+      <div>
+        <div>
+          <div>
+            <p></p><ul><li>Full-time course in General English at Proficiency level - Access College, London </li></ul>
+          </div>
+        </div>
+      </div>
+    </div></span>
+              </div>
+            </div>
+      <div class="clear"> </div>
+    </div>
+      <div class="section section-education">
+      <h2 class="title">Education</h2>
+      <div class="set">
+            <div class="item">
+              <h3><span class="course l">Department for Computer Science</span>
+            <span class="date r">2010 &mdash; Present</span>
+              </h3>
+              <div class="clear"> </div>
+              <span class="school">Elektronski fakultet Niš</span><div class="info"><ul><li><span>GPA 9.1 / 10</span></li></ul></div><span class="clear"> </span>
+            </div>
+            
+            <div class="item">
+              <h3><span class="course l">Student exchange</span>
+            <span class="date r">Jan 2014 &mdash; July 2014</span>
+              </h3>
+              <div class="clear"> </div>
+              <span class="school">NTNU Trondheim</span><span class="clear"> </span>
+            </div>
+            </div>
+      <div class="clear"> </div>
+    </div>
+      <div class="section section-interests">
+      <h2 class="title">Skills</h2>
+      <div class="set">
+              <div class="item">
+                <span class="info"><div><br /></div><ul><li><span>Angular 1</span></li><li><span>Angular 2</span></li><li><span>Ionic</span></li><li><span>NativeScript</span></li><li><span>React &amp; Redux</span></li><li><span>React Native</span></li><li><span>Backbone &amp; Marionette</span></li><li><span>Meteor.js</span></li><li><span>Node.js</span></li><li><span>PHP &amp; Laravel</span></li><li><span>Mongo DB</span></li><li><span>MySql</span></li></ul></span>
+              </div>
+            </div>
+      <div class="clear"> </div>
+    </div>
+      <div class="section section-references">
+      <h2 class="title">References</h2>
+      <div class="set">
+              <div class="item">
+                <span class="info">References available upon request.</span>
+              </div>
+            </div>
+      <div class="clear"> </div>
+    </div>
+    
+</div>
+  
+</body>
+</html>
