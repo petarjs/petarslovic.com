@@ -659,3 +659,7 @@ footer {
 .subscribe--active {
   display: block;
 }
+
+.profile__image__img {
+  border-radius: 50%;
+}
