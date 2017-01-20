@@ -130,3 +130,9 @@ When I played around with it, Motion AI did not support a variable system. You c
 So, while we have a limited toolset, we can use some creativity to guide the user through conversation, so that he doesn't notice that your bot is not omniscient. Being subtle in our manipulations is the key to a good bot experience. 🐧
 
 I encourage you to try out the bot builder, on Motion AI or somewhere else, play around with it, and get a feel of how awesomely fun it can be. The dawn of bots is upon us!
+
+{{< html >}}
+  <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+  <script src="https://api.motion.ai/sdk/webchat.js"></script>
+  <script src="/js/bot.js"></script>
+{{</ html >}}
