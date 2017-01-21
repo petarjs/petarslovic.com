@@ -3,11 +3,24 @@
   {{ range (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "post") }}
   {{ $url := replace .Permalink .Site.BaseURL "" }}
     {{ if and (ne $url "about/") }}
-      <a class="post {{ if .Params.fullwidth }} post--fullwidth {{ end }}" href="{{ .Permalink }}" title="{{ .Title }}">
-        <span class="post__image" style="background-image: url('{{ .Site.BaseURL }}/images/posts/{{ .Params.image }}')"></span>
-        <span class="post__backdrop"></span>
+      <a class="post-container post-container--small" href="{{ .Permalink }}" title="{{ .Title }}">
+        <span class="post">
+          <span class="post__image" style="background-image: url('{{ .Site.BaseURL }}/images/posts/{{ .Params.image }}')"></span>
+          <span class="post__backdrop"></span>
+          <span class="post__info">
+            <aside class="post__date">{{ .Date.Format "Jan 2" }}</aside>
+            <span class="post__tags">
+              {{ with .Params.tags }}
+              {{ if ge (len .) 1 }}
+                {{ range . }}
+                  #{{ . }}
+                {{ end }}
+              {{ end }}
+              {{ end}}
+            </span>
+          </span>
+        </span>
         <span class="post__title">{{ .Title }}</span>
-        <aside class="post__date">{{ .Date.Format "Jan 2" }}</aside>
       </a>
     {{ end }}
  {{ end }}

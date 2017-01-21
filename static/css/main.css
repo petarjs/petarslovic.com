@@ -386,6 +386,17 @@ footer {
   margin-left: 10px;
 }
 
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.post-container--small {
+  width: 33%;
+}
+
 .post {
   flex: 1;
   flex-basis: 100%;
@@ -418,7 +429,15 @@ footer {
 }
 
 .post__title {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+}
+
+.post__info {
+  font-size: 16px;
   font-weight: 500;
   position: absolute;
   bottom: 25px;
@@ -434,9 +453,7 @@ footer {
 
 .post__date {
   color: #FFFFFF;
-  position: absolute;
-  bottom: 60px;
-  left: 20px;
+  display: inline-block;
   opacity: 0.75;
 }
 
@@ -662,4 +679,92 @@ footer {
 
 .profile__image__img {
   border-radius: 50%;
+}
+
+.profile__image {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background: #62C9C3;
+  border-radius: 50%;
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 19px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-rss {
+    background-color: #f26109;
+}
+.soc-github {
+    background-color: #FFFFFF;
+}
+.soc-skype {
+    background-color: #10C5F4;
+}
+
+.soc-mail {
+    background-color: gold;
+}
+
+.soc-mail:before {
+    content:'.';
+}
+
+.soc .soc-cv {
+  font-family: 'Roboto', sans-serif !important;
+  border-radius: 100px;
+  margin-right: 10px;
+  color: #ffffff;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background: orange;
+  font-size: 19px;
+  font-weight: 600;
 }
