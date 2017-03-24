@@ -11,7 +11,40 @@
       {{ end }}
       </p>
     </footer>
-    
+
+    <script>
+      var PROJECTS = []
+      var POSTS = []
+    </script>
+
+    {{ range (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "projects") }}
+      <script>
+        PROJECTS.push({
+          title: '{{ .Title }}',
+          section: '{{ .Section }}',
+          link: '{{ .Site.BaseURL }}projects/{{ urlize .Title }}',
+          image: '{{ .Site.BaseURL }}images/projects/{{ .Params.image }}'
+        })
+      </script>
+    {{ end }}
+
+    {{ range (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "post") }}
+      {{ $url := replace .Permalink .Site.BaseURL "" }}
+      {{ if ne $url "about/" }}
+        <script>
+          POSTS.push({
+            title: '{{ .Title }}',
+            date: '{{ .Date.Format "Jan 2" }}',
+            section: '{{ .Section }}',
+            link: '{{ .Permalink }}',
+            image: '{{ .Site.BaseURL }}/images/posts/{{ .Params.image }}'
+          })
+        </script>
+      {{ end }}
+    {{ end }}
+
+    <script src="{{ .Site.BaseURL }}js/main.js"></script>
+
     <script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.1.2"></script>
     <script>twemoji.parse(document.body);</script>
     
