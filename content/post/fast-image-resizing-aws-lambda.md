@@ -8,6 +8,27 @@ fullwidth = true
 
 Recently I worked on a project that required fast image resizing. The result - resizing 1000 images (around 1.2 GB) to 2 thumbnail sizes in 3s. When I say resizing, I actually mean getting all those images from S3, doing the resizing, and storing them back to S3.
 
+<style>
+  .important-info { background: #efefef; padding: 20px; border-radius: 6px; }
+  .important-info h2 { font-weight: bold; margin-top: 10px; }
+  .important-info div { margin-bottom: 20px; }
+  .important-info a { padding: 20px 40px; background: orange; display: inline-block; border-radius: 50px; color: white; text-transform: uppercase; font-size: 20px; }
+  .important-info .ta-c { text-align: center; }
+</style>
+<div class="important-info">
+  <div><h2>Want to become a JavaScript Warrior?</h2></div>
+  <div><img src="/images/banners/jswarrior.png" width="100%"></div>
+  <div>
+    I'm planning to start a special (and free) JavaScript course where we build real, useful, Open Source JS apps together, and which you'll be able to put into your portfolio at the end of the course.
+  </div>
+  <div>
+    If you're interested to find out more, please follow me on Steemit. Upvote if you're interested in participating in the course!
+  </div>
+  <div class="ta-c">
+    <a href="https://steemit.com/javascript/@petarjs/introducing-petar-js-learn-to-build-products-with-javascript" target="_blank">Find out more</a>
+  </div>
+</div>
+
 ## The Use Case
 
 A lot of hi-res images would be uploaded with the Order (1000 or more), and as soon as they all got uploaded, the Admin would see the new Order and should be able to browse through the images - two sizes of thumbs alongside the original image. So the images needed to be available (nearly) as soon as the new Order came in, in different sizes. But we also had to wait for all the images to upload before starting to resize them - there were business rules preventing us from resizing images as they come.
