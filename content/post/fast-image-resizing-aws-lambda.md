@@ -12,6 +12,7 @@ Recently I worked on a project that required fast image resizing. The result - r
   .important-info { background: #efefef; padding: 20px; border-radius: 6px; }
   .important-info h2 { font-weight: bold; margin-top: 10px; }
   .important-info div { margin-bottom: 20px; }
+  .important-info img { max-width: 100%; }
   .important-info a { padding: 20px 40px; background: orange; display: inline-block; border-radius: 50px; color: white; text-transform: uppercase; font-size: 20px; }
   .important-info .ta-c { text-align: center; }
 </style>
