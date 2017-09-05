@@ -4,6 +4,7 @@ image = "fast-image-resizing-with-aws-lambda/header.jpeg"
 tags = ["aws", "lambda", "image resize"]
 title = "Fast Image Resizing with AWS Lambda"
 fullwidth = true
+canonical = "https://steemit.com/aws/@petarjs/ultra-fast-image-resizing-with-aws-lambda"
 +++
 
 Recently I worked on a project that required fast image resizing. The result - resizing 1000 images (around 1.2 GB) to 2 thumbnail sizes in 3s. When I say resizing, I actually mean getting all those images from S3, doing the resizing, and storing them back to S3.
