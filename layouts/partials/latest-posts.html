@@ -1,4 +1,4 @@
-<a href="/blog"><h2 class="post-list__title">Latest Posts</h2></a>
+<a href="/blog/"><h2 class="post-list__title">Latest Posts</h2></a>
 <div class="post-list post-list--latest">
   {{ range first 8 (where (where .Site.Pages "Params.hidden" "ne" "true") "Section" "eq" "post") }}
   {{ $url := replace .Permalink .Site.BaseURL "" }}
@@ -25,4 +25,4 @@
     {{ end }}
  {{ end }}
 </div>
-<a href="/blog"><h4 class="post-list__title">Read More</h4></a>
+<a href="/blog/"><h4 class="post-list__title">Read More</h4></a>
